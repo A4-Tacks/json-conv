@@ -1,0 +1,10 @@
+[package]
+name = "json-conv"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = "1.0.229"
+serde-hjson = "1.1.0"
+serde_json = { version = "1.0.151", features = ["indexmap"] }
+serde_json5 = "0.2.1"
